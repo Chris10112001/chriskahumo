@@ -1,0 +1,26 @@
+/*a c programm to print even numbet from 1000 to infonty */
+#include<stdio.h>
+int main ()
+{
+    int a,b;
+    /* input upper limit of the even number
+     from the user */
+     printf("enter your number\n");
+    scanf("%d",&a);
+    
+     printf("enter your number\n");
+    scanf("%d",&b);
+    /* start loop counter 1000 , increment it by 1*/
+    /* will iterate till n */
+    
+        /* check for the condition before printing */
+    if (a%b)
+        {
+            printf("even number");
+            else  {
+                printf("is not ");
+            }
+        }
+        }
+
+    
