@@ -1,0 +1,53 @@
+#include<stdio.h>
+main ()
+{ 
+       int john ; 
+       int mary; 
+       int options; 
+       float average= 0;
+       printf("enter 1 to check the age if is the same :\n");
+       printf("enter 2 to check if mary is older than john  :\n");
+       printf("enter 3 to get the average age :\n");
+       scanf("%d",&options);
+       switch( options){
+        case 1:
+        printf("enter the age for john ");
+        scanf("%d",&john );
+        printf("enter the age of mary ");
+        scanf("%d",&mary);
+        
+        if(john == mary){
+            printf("they have the same age");
+            }
+            else{ 
+            printf ("they don't have the sane age");
+            }
+        
+        break;
+     
+        case 2:
+        printf(" enter the age of john ");
+        scanf("%d",&john );
+        printf("enter the age for mary ");
+        scanf("%d",&mary);
+        if (mary > john )
+        { 
+        printf("mary is oler than john ");
+        }
+        else
+        {
+        printf("john is older than mary ");
+        }
+        break;
+        case 3:
+        printf("enter the age john");
+        scanf("%d",&john);
+        printf("enter the age for mary" );
+        scanf("%d",&mary);
+        average= (john+mary)/2;
+        printf("the average age is equal to %f",average);
+        break;
+        
+}
+
+}
