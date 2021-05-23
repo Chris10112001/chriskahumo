@@ -1,0 +1,66 @@
+#include<stdio.h>
+ int main()
+{
+    int a;
+    int b;
+    int results;
+    int love;
+    
+    printf("(1)addition\n");
+    printf("(2)subtraction\n");
+    printf("(3)multiplication\n");
+    printf("(4)division\n");
+    printf("(5)modulus\n");
+    printf("enter choice\n");
+    scanf("%d\n",&love);
+    switch(love){
+    case 1:
+    printf("Enter value of a :\n");
+    scanf("%d",&a);
+    printf("Enter value of b;\n");
+    scanf("%d",&b);
+    results=a+b;
+    printf("the sum is %d",results);
+    break;
+    
+    case 2:
+    printf("Enter value of a :\n");
+    scanf("%d",&a);
+    printf("Enter value of b:\n");
+    scanf("%d",&b);
+    results=a-b;
+    printf("the diffrence is %d",results);
+    break;
+    
+    case 3:
+    printf("Enter value of a :\n");
+    scanf("%d",&a);
+    printf("Enter value of b:\n");
+    scanf("%d",&b);
+    results=a*b;
+    printf("the product is %d",results);
+    break;
+    
+    case 4:
+    printf("Enter value of a:\n");
+    scanf("%d",&a);
+    printf("Enter value of b:\n");
+    scanf("%d",&b);
+    results=a/b;
+    printf("the rest  is %d",results);
+    break;
+    
+    case 5:
+    printf("Enter value of a :\n");
+    scanf("%d",&a);
+    printf("Enter value of b :\n");
+    scanf("%d",&b);
+    results=a%b;
+    printf("the modulus is %d",results);
+    break;
+    default:
+    printf("choice not available please!");
+    }
+    return 0;
+    
+}
