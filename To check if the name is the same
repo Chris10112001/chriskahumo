@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+	char n[20]="Sam";
+	char name[20];
+	
+	printf("Enter you first name: \n");
+	scanf("%s", &name);
+//	strcmp(n, name)==0 ? printf("this is Sam"): printf("this is not Sam");
+    if (n==name){
+    	printf("they match");
+	}else ("they dont't match");
+
+	return 0;
+}
