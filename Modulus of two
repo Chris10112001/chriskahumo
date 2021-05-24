@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+
+int main(){
+	
+	int k, m;
+	printf("We are going to get modulus: K and M \n");
+	printf("Enter any integer number\n");
+	scanf("%d %d",&k ,&m);
+	int answee =k%m;
+	printf("the remainder is: %d\n\n", answee);
+}
