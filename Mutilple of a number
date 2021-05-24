@@ -1,0 +1,12 @@
+/*multiples*/
+#include<stdio.h>
+int main ()
+{
+    int multiple,n=1000,d;
+    printf("enter the number :\n");
+    scanf("%d",&d);
+    printf("\n enter the  number divisible by %d are \n");
+    for(multiple=1;multiple<=n;multiple++)
+    if (multiple %d==0)
+    printf("%d",multiple);
+}
